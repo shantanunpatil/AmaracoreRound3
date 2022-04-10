@@ -38,12 +38,6 @@
     border-radius: 0.2em;
     margin-top: 0.6em;
   }
-  ::-webkit-calendar-picker-indicator {
-    /*background-color: #00AA00;*/
-    padding: 0.2em;
-    cursor: pointer;
-    border-radius: 0.1em;
-  }
   button {
     display: block;
     background-color: #00AA00;
@@ -68,17 +62,4 @@
     color: #18f08b;
     font-size: 1.4em;
     font-weight: 600;
-  }
-  @media screen and (max-width: 550px) {
-    .container {
-      padding: 4em 2em;
-    }
-    .inp-wrapper {
-      flex-direction: column;
-    }
-    .date-wrapper {
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-    }
   }
